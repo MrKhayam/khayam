@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="logo font-bold text-2xl">
           <h1 className="text-[#FF6500]">Khayam Ijaz</h1>
         </div>
-        <ul className="flex items-center gap-5 font-semibold cursor-pointer">
+        <ul className="md:flex hidden items-center gap-5 font-semibold cursor-pointer">
           <li className="hover:text-[#FF6500] transition-all duration-300">
             Home
           </li>
@@ -21,6 +21,9 @@ const Navbar = () => {
             Contact
           </li>
         </ul>
+        <div className="md:hidden block ">
+          
+        </div>
       </div>
     </>
   );
