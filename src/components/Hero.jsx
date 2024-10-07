@@ -8,13 +8,13 @@ const Hero = () => {
           Hello, I am <span className="text-[#FF6500]">Khayam Ijaz</span> <br />{" "}
           <span>Fullstack Web Developer</span>
         </h1>
-              <div className="buttons flex items-center gap-5">
-                  <button className="bg-[#000] text-white px-2 md:px-7 md:py-4 rounded-md">
-                      Download CV
-                  </button>
-                  <button className="bg-[#FF6500] text-white md:px-7 md:py-4 rounded-md">
-                      Contact Me
-                  </button>
+        <div className="buttons flex items-center gap-5">
+          <button className="bg-[#000] text-white px-2 md:px-7 md:py-4 rounded-md">
+            Download CV
+          </button>
+          <button className="bg-[#FF6500] text-white md:px-7 md:py-4 rounded-md">
+            Contact Me
+          </button>
         </div>
         <img
           src="/hero.png"
