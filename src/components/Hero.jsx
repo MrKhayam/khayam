@@ -19,12 +19,12 @@ const Hero = () => {
         <img
           src="/hero.png"
           alt=""
-          className="absolute md:bottom-[-130px] md:right-[-130px] md:w-[350px] w-[300px] bottom-[25%] z-[-1] lg:w-[400px] md:rotate-[-45deg]"
+          className="absolute md:bottom-[-130px] md:right-[-130px] md:w-[350px] w-[300px] bottom-[22%] z-[-1] lg:w-[400px] md:rotate-[-45deg]"
         />
         <img
           src="/hero2.png"
           alt=""
-          className="animate-up-down absolute bottom-[99%] md:bottom-[65%] md:left-[2%] lg:left-[10%] xl:left-[20%] w-[100px] rotate-[-45deg]"
+          className="animate-up-down absolute top-[-20%] md:bottom-[65%] md:left-[2%] lg:left-[10%] xl:left-[20%] w-[100px] rotate-[-45deg]"
         />
         <img
           src="/elp1.png"
