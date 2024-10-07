@@ -24,7 +24,7 @@ const Hero = () => {
         <img
           src="/hero2.png"
           alt=""
-          className="animate-up-down absolute top-[-18%] md:bottom-[65%] md:left-[2%] lg:left-[10%] xl:left-[20%] w-[100px] rotate-[-45deg]"
+          className="animate-up-down absolute md:top-[25%] top-[-18%]  md:left-[2%] lg:left-[10%] xl:left-[18%] w-[100px] rotate-[-45deg]"
         />
         <img
           src="/elp1.png"
