@@ -9,10 +9,10 @@ const Hero = () => {
           <span>Fullstack Web Developer</span>
         </h1>
         <div className="buttons flex items-center gap-2 md:gap-5">
-          <button className="bg-[#000] text-white px-2 py-3 md:px-7 md:py-4 rounded-md">
+          <button className="bg-[#000] text-white px-5 py-3 md:px-7 md:py-4 rounded-md">
             Download CV
           </button>
-          <button className="bg-[#FF6500] px-2 py-3 text-white md:px-7 md:py-4 rounded-md">
+          <button className="bg-[#FF6500] px-5 py-3 text-white md:px-7 md:py-4 rounded-md">
             Contact Me
           </button>
         </div>
