@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -12,10 +13,10 @@ const Navbar = () => {
         </div>
         <ul className="md:flex hidden items-center gap-5 font-semibold cursor-pointer">
           <li className="hover:text-[#FF6500] transition-all duration-300">
-            Home
+            <Link  to='/'>Home</Link>
           </li>
           <li className="hover:text-[#FF6500] transition-all duration-300">
-            About
+            <Link to='/about'>About</Link>
           </li>
           <li className="hover:text-[#FF6500] transition-all duration-300">
             Projects
@@ -34,8 +35,12 @@ const Navbar = () => {
         {open && (
           <div className="md:hidden fixed top-0 left-0 w-full h-full bg-[#FF6500] z-50">
             <ul className="flex gap-3 flex-col items-center justify-center h-full">
-              <li className="text-white text-3xl font-bold">Home</li>
-              <li className="text-white text-3xl font-bold">About</li>
+              <li className="text-white text-3xl font-bold">
+                <Link onClick={() => setOpen(!open)} to='/'>Home</Link>  
+              </li>
+              <li className="text-white text-3xl font-bold">
+                <Link onClick={() => setOpen(!open)} to='/about'>About</Link>
+              </li>
               <li className="text-white text-3xl font-bold">Projects</li>
               <li className="text-white text-3xl font-bold">Contact</li>
             </ul>

@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="w-[95%] mx-auto relative hero flex items-center md:mt-0 mt-32 md:justify-center flex-col gap-5">
+      <div className="w-[95%] mx-auto relative height flex items-center md:mt-0 mt-32 md:justify-center flex-col gap-5">
         <h1 className="text-2xl md:text-5xl font-bold md:leading-[60px] 2xl:text-7xl text-center">
           Hello, I am <span className="text-[#FF6500]">Khayam Ijaz</span> <br />{" "}
           <span>Fullstack Web Developer</span>
